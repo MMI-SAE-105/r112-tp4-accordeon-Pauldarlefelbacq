@@ -14,3 +14,17 @@ details {
     position: relative;
     overflow: hidden;
 }
+
+details[open] {
+    margin-bottom: 20px;
+    width: 100%;
+    transition: all 2s ease-in-out;
+}
+
+details div p {
+    display: block;
+}
+
+summary {
+    list-style: none;
+}
